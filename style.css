@@ -397,3 +397,7 @@ a.article:hover {
 ::-webkit-scrollbar-corner {
   background: transparent;
 }
+
+.d-none{
+    display: none !important;
+}
