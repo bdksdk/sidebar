@@ -319,3 +319,29 @@ a.article:hover {
 }
 
 }
+@media (max-width: 600px){
+    #content {
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+        transition: all 0.3s;
+    }
+    .kld {
+        margin-left: -100%;
+    }
+    .kld.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse2 span {
+        display: none;
+    }
+    
+   .kld {
+    min-width: 100%;
+    max-width: 100%;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    
+}
+}
