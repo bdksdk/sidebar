@@ -284,7 +284,7 @@ a.article:hover {
     background-color: rebeccapurple;
 }
 .textcol2{
-    height: 97%;
+    /* height: 97%; */
     overflow: auto;
     background-color: rebeccapurple;
 }
