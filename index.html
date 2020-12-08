@@ -47,10 +47,21 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script>
                     $(document).ready(function () {
+                        $(".ngnon").hide();
+                         let w=$(window).width();
+                        if(w<769){
+                            $(".ngnon").show();  
+                        }
+                        console.log (w);
+
+                        
+
+
                         $(".ngnon2").click(function () {
                             $(".ngnon2").hide();
                             $(".ngnon").show();
                         });
+
                         $(".ngnon").click(function () {
                             $(".ngnon").hide();
                             $(".ngnon2").show();
