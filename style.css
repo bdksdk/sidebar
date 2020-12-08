@@ -141,6 +141,12 @@ a.article:hover {
     color: #fff !important;
 }
 
+
+#sidebarCollapse2 {
+
+}
+
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -335,9 +341,11 @@ a.article:hover {
     #sidebarCollapse2 span {
         display: none;
     }
-    
+    #content{
+        margin-left: 0;
+    }
    .kld {
-    min-width: 100%;
+    min-width: 10%;
     max-width: 100%;
     background: #7386D5;
     color: #fff;
